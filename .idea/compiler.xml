@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="xc-service-manager-cms" />
+        <module name="xcEduApi" />
+        <module name="xcEduDomain" />
+        <module name="xcEduUtils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="xc-service-manager-cms" target="1.8" />
+      <module name="xcEduApi" target="1.8" />
+      <module name="xcEduDomain" target="1.8" />
+      <module name="xcEduParent" target="1.8" />
+      <module name="xcEduUtils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
